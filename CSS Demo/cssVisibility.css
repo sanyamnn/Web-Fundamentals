@@ -1,0 +1,11 @@
+li {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: red;
+    border: solid 1px;
+}
+
+#home {
+    visibility: hidden;
+}

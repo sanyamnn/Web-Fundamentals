@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.square {
+    position: relative;
+    margin: 80px auto auto;
+    min-height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: darkred;
+}
+
+.circle01 {
+    position: absolute;
+    /*This sets position of element to be relative to nearest ancestor*/
+    top: -10px;
+    left: -10px;
+}
+
+.circle02 {
+    position: absolute;
+    top: -15px;
+    left: 280px;
+}
+
+.circle03 {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+}
+
+.circle04 {
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+}

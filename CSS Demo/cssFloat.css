@@ -1,0 +1,12 @@
+.maruti img {
+    float: right;
+}
+
+.tesla img {
+    float: left;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
