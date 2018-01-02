@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Form Basics </title>
+    <script>
+        function validation() {
+            var a = document.forms["informationForm"]["Name"].value;
+            if (a == "") {
+                alert("Name must be entered");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form method="post" name="informationForm" onsubmit="return validation()">
+        <fieldset>
+            <legend>Personal Information</legend>
+            Name : <input type="text" name="Name" accesskey="n" tabindex="4"> <br> Age : <input type="number" name="Age" tabindex="2"><br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male"> <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Family Information</legend>
+            <br>
+            <label for="newsletter">Subscribe to our newsletter</label>
+            <input id="newsletter" type="checkbox" value="pref" name="newsletter">Subscribe to our newsletter</input>
+        </fieldset>
+        Father's Name = <input type="text" name="fname" accesskey="f" tabindex="1"><br> Mother's Name = <input type="text" name="mname" accesskey="m" tabindex="3"><br>
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

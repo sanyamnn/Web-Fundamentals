@@ -1,0 +1,27 @@
+p {
+    color: red;
+}
+
+div p {
+    color: blueviolet;
+}
+
+div div p {
+    color: green;
+}
+
+.class01 p {
+    color: blue;
+}
+
+.class01 div p {
+    color: brown;
+}
+
+#id01 p {
+    color: darkorange;
+}
+
+#id01 div p {
+    color: indianred;
+}

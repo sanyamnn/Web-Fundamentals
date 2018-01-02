@@ -1,0 +1,35 @@
+div {
+    width: 320px;
+    min-height: 200px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.specialWidth {
+    width: 150px;
+}
+
+.size2em {
+    font-size: 2em;
+}
+
+.size2rem {
+    font-size: 2rem;
+}
+
+.backgroundRed {
+    background-color: red;
+}
+
+.opaqueBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.specialBorders {
+    border-color: yellow;
+}
+
+.imageBackground {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/konfinity-website-images/konfinity-logo.png");
+}

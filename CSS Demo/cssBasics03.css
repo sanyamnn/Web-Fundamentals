@@ -1,0 +1,14 @@
+/*Simple Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 50px;
+    width: 200px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}

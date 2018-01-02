@@ -1,0 +1,18 @@
+#outerDiv {
+    padding: 10px 10px 10px 10px;
+    height: 500px;
+    width: 500px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    font-size: 3em;
+    color: red;
+}
+
+#innerDiv {
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}

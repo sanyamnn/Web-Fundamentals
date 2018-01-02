@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Form Basics </title>
+</head>
+
+<body>
+    <form method="post" id="information">
+        First Name : <input type="text" name="first" value="Konfinity" maxlength="15" readonly><br> Last Name : <input type="text" name="last" maxlength="5" value="Limited" readonly><br> Password : <input type="password" name="pswrd"><br> Gender :
+        <input type="radio" name="gender" value="male" checked>Male
+        </input>
+        <input type="radio" name="gender" value="female"> Female </input><br> Occupation : <select id="occupation" name="occupation" form="information">
+                <optgroup label="Technical">
+                    <option label="Developer" value="dev">Developer</option>
+                    <option label="Designer" value="des">Designer</option>
+                </optgroup>
+                <optgroup label="Non Technical">
+                    <option label="Manager" value="man">Manager</option>
+                    <option label="HR" value="hr">HR</option>
+                </optgroup>
+</select><br>
+        <input type="checkbox" id="pref1" name="pref" value="newsletter"> Send me a newsletter </input><br>
+        <input type="checkbox" id="pref2" name="pref" value="tandc">Accept Terms and Conditions </input><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

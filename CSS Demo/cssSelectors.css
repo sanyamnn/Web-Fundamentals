@@ -1,0 +1,51 @@
+/*This is a simple selector*/
+
+body {
+    background-color: red;
+}
+
+
+/*This is a class selector*/
+
+.classDiv {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+
+/*This is a id selector*/
+
+#idDiv {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+}
+
+
+/*This is a selector to apply properties to all children*/
+
+
+/*This is a descendant selector*/
+
+div p {
+    color: blue;
+}
+
+
+/*This is a direct child selector*/
+
+
+/*This is a selector  to apply properties to direct child*/
+
+div>p {
+    color: brown;
+}
+
+
+/*This is a attribute selector*/
+
+img[alt=html] {
+    height: 200px;
+    width: 200px;
+}
